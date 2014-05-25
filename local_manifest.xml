@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- CM replacements -->
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-10.2" />
+    <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+    <project path="hardware/libhardware_legacy" name="johnnyslt/android_hardware_libhardware_legacy" revision="cm-10.2" />
+    <remove-project name="CyanogenMod/android_hardware_ril" />
+    <project path="hardware/ril" name="omnirom/android_hardware_ril" revision="android-4.3" />
+    <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-4.3" />
+
+    <!-- Local projects -->
+    <project path="hardware/atheros/wifi/libs" name="legaCyMod/android_hardware_atheros_wlan" revision="cm-10.2" />
+    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-10.2" />
+    <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-10.2" />
+    <remove-project name="CyanogenMod/android_frameworks_native" />
+    <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-10.2" />
+</manifest>
