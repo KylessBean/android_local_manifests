@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- GT-S7560M -->
-    <project path="device/samsung/kylessopen" name="codename13/android_device_samsung_kylessopen" revision="master" />
-    <project path="kernel/samsung/kylessopen" name="codename13/android_kernel_ba2x_2.0" revision="CM" />
-    <project path="vendor/samsung/kylessopen" name="codename13/android_vendor_samsung_kylessopen" revision="CM" />
+    <project path="device/samsung/kylessopen" name="KylessBean/android_device_samsung_kylessopen" revision="master" />
+    <project path="kernel/samsung/kylessopen" name="KylessBean/FrankenKernel" revision="master" />
+    <project path="vendor/samsung/kylessopen" name="KylessBean/android_vendor_samsung_kylessopen" revision="CM" />
 
     <!-- FM Radio -->
     <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="cm-10.2" />
